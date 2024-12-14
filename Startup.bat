@@ -1,0 +1,1 @@
+start "" "C:\Program Files (x86)\National Instruments\LabVIEW 2020\LabVIEW.exe" "%~dp0%Support VIs\Startup\Startup.vi"

@@ -1,0 +1,16 @@
+5900,External errors,0
+5901,External error example 1,0
+5902,External error example 2,0
+5997,Test external error,0
+5998,Unrecognised external error,0
+6000,Start of CIRCUS custom errors,0
+7100,Simple Device Manager,0
+7101,Couldn't intialize the device,0
+7102,Couldn't get status of the device,0
+7103,Couldn't set current on the device,0
+7104,Device is off,0
+8000,Pizza Machine,0
+8001,Pizza Machine: error in converting pizza flavour,0
+8002,Pizza Machine: that flavour is not available,0
+8050,Waiter,0
+8051,Error in converting pizzas list,0

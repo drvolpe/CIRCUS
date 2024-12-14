@@ -1,0 +1,2 @@
+NOTE: in 'Start TALOS.bat' the path to the LabVIEW executable is hardcode, and by default LabVIEW 2020 is used.
+If you use a different version of LabVIEW, please change the path there.
