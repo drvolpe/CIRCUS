@@ -964,6 +964,7 @@
 				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 				<Item Name="ERR_ErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_ErrorClusterFromErrorCode.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -973,6 +974,7 @@
 				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="LVComboBoxStrsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVComboBoxStrsAndValuesArrayTypeDef.ctl"/>
 				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="ni_logos_BuildURL.vi" Type="VI" URL="/&lt;vilib&gt;/variable/logos/dll/ni_logos_BuildURL.vi"/>
@@ -999,6 +1001,10 @@
 				<Item Name="PRC_IOServersToLib.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_IOServersToLib.vi"/>
 				<Item Name="PRC_OpenOrCreateLib.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_OpenOrCreateLib.vi"/>
 				<Item Name="PRC_ParseLogosURL.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_ParseLogosURL.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
 				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
 				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
@@ -1014,15 +1020,19 @@
 				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
 				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Search Sorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Sorted 1D Array.vim"/>
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Union.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Union.vim"/>
+				<Item Name="Shuffle 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Shuffle 1D Array.vim"/>
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Two-Way Comparison Versus Array Element.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Two-Way Comparison Versus Array Element.vim"/>
@@ -1058,6 +1068,7 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Config.lvclass" Type="LVClass" URL="../../../Classes/Config/Config.lvclass"/>
 			<Item Name="dscCit4M.dll" Type="Document" URL="../../TALOS/dscCit4M.dll"/>
 			<Item Name="dscCitSP.dll" Type="Document" URL="../../TALOS/dscCitSP.dll"/>
 			<Item Name="dscCommn.dll" Type="Document" URL="../../TALOS/dscCommn.dll"/>
@@ -1068,7 +1079,12 @@
 			<Item Name="dscProc.dll" Type="Document" URL="../../TALOS/dscProc.dll"/>
 			<Item Name="dscVISL.dll" Type="Document" URL="../../TALOS/dscVISL.dll"/>
 			<Item Name="dscVSLT.dll" Type="Document" URL="../../TALOS/dscVSLT.dll"/>
+			<Item Name="FPGA informative error on return.vi" Type="VI" URL="../FPGA informative error on return.vi"/>
+			<Item Name="Get Monkey Picture.vi" Type="VI" URL="../../../Support VIs/Get Monkey Picture.vi"/>
+			<Item Name="Get Tamer Logo.vi" Type="VI" URL="../../../Support VIs/Get Tamer Logo.vi"/>
+			<Item Name="Get Tamer Picture.vi" Type="VI" URL="../../../Support VIs/Get Tamer Picture.vi"/>
 			<Item Name="IOServer.mxx" Type="Document" URL="../../TALOS/IOServer.mxx"/>
+			<Item Name="Is status ongoing - string.vi" Type="VI" URL="../Tamer/Is status ongoing - string.vi"/>
 			<Item Name="JKI_dotNET_System_Exec_PPL.lvlibp" Type="LVLibp" URL="../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp">
 				<Item Name="Clear Errors.vi" Type="VI" URL="../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="dotnet_system_exec.lvclass" Type="LVClass" URL="../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp/dotnet_system_exec.lvclass"/>
@@ -1080,6 +1096,7 @@
 			<Item Name="lksock.dll" Type="Document" URL="lksock.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Log.lvclass" Type="LVClass" URL="../../../Classes/Log/Log.lvclass"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -1100,9 +1117,16 @@
 			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Optimiser Cell.lvclass" Type="LVClass" URL="../../../Run Utilities/Optimiser Cell/Optimiser Cell.lvclass"/>
+			<Item Name="Optimiser SBlock.lvclass" Type="LVClass" URL="../../../Run Utilities/Optimiser SBlock/Optimiser SBlock.lvclass"/>
+			<Item Name="Run Block.lvclass" Type="LVClass" URL="../../../Run Utilities/Run Block/Run Block.lvclass"/>
+			<Item Name="Run Instance.lvclass" Type="LVClass" URL="../../../Run Utilities/Run Instance/Run Instance.lvclass"/>
+			<Item Name="Schedule Block.lvclass" Type="LVClass" URL="../../../Run Utilities/Schedule Block/Schedule Block.lvclass"/>
+			<Item Name="Schedule.lvclass" Type="LVClass" URL="../../../Run Utilities/Schedule/Schedule.lvclass"/>
 			<Item Name="SCT Default Types.ctl" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Default Types.ctl"/>
 			<Item Name="SCT Get LVRTPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get LVRTPath.vi"/>
 			<Item Name="SCT Get Types.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get Types.vi"/>
+			<Item Name="Sequence of SBlocks.lvclass" Type="LVClass" URL="../../../Run Utilities/Sequence of SBlocks/Sequence of SBlocks.lvclass"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
