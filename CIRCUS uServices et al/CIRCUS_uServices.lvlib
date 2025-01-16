@@ -9,5 +9,6 @@
 	<Item Name="DAQ Sender.lvlib" Type="Library" URL="../DAQ Sender/DAQ Sender.lvlib"/>
 	<Item Name="Kasli Listener and Writer.lvlib" Type="Library" URL="../Kasli Listener and Writer.lvlib"/>
 	<Item Name="Kasli Server.lvlib" Type="Library" URL="../Kasli Server/Kasli Server.lvlib"/>
+	<Item Name="Kasli Wrapper 2.0.lvlib" Type="Library" URL="../Kasli Wrapper 2.0/Kasli Wrapper 2.0.lvlib"/>
 	<Item Name="Run Utilities.lvlib" Type="Library" URL="../Run Utilities/Run Utilities.lvlib"/>
 </Library>
