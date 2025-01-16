@@ -1,6 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="varPersistentID:{24B2913C-B0EE-4FBF-AA70-B384DEC7552D}" Type="Ref">/My Computer/CIRCUS_uServices.lvlib/DAQ Manager.lvlib/Shared Variables/RUN Number</Property>
+	<Property Name="varPersistentID:{79487E8C-20C2-4480-88CC-0FB61C8BCE6A}" Type="Ref">/My Computer/CIRCUS_uServices.lvlib/DAQ Manager.lvlib/Shared Variables/DAQ Port Path</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
