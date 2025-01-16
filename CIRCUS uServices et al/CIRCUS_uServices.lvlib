@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Analysis Framework.lvclass" Type="LVClass" URL="../Analysis Framework/Analysis Framework.lvclass"/>
 	<Item Name="DAQ Manager.lvlib" Type="Library" URL="../DAQ Manager/DAQ Manager.lvlib"/>
+	<Item Name="DAQ Sender.lvlib" Type="Library" URL="../DAQ Sender/DAQ Sender.lvlib"/>
 	<Item Name="Kasli Listener and Writer.lvlib" Type="Library" URL="../Kasli Listener and Writer.lvlib"/>
 	<Item Name="Run Utilities.lvlib" Type="Library" URL="../Run Utilities/Run Utilities.lvlib"/>
 </Library>
