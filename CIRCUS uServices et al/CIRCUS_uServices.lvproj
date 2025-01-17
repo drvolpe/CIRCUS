@@ -1079,7 +1079,6 @@
 			<Item Name="dscProc.dll" Type="Document" URL="../../TALOS/dscProc.dll"/>
 			<Item Name="dscVISL.dll" Type="Document" URL="../../TALOS/dscVISL.dll"/>
 			<Item Name="dscVSLT.dll" Type="Document" URL="../../TALOS/dscVSLT.dll"/>
-			<Item Name="FPGA informative error on return.vi" Type="VI" URL="../FPGA informative error on return.vi"/>
 			<Item Name="IOServer.mxx" Type="Document" URL="../../TALOS/IOServer.mxx"/>
 			<Item Name="Is status ongoing - string.vi" Type="VI" URL="../Tamer/Is status ongoing - string.vi"/>
 			<Item Name="JKI_dotNET_System_Exec_PPL.lvlibp" Type="LVLibp" URL="../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp">
