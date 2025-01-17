@@ -1114,16 +1114,9 @@
 			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Optimiser Cell.lvclass" Type="LVClass" URL="../../../Run Utilities/Optimiser Cell/Optimiser Cell.lvclass"/>
-			<Item Name="Optimiser SBlock.lvclass" Type="LVClass" URL="../../../Run Utilities/Optimiser SBlock/Optimiser SBlock.lvclass"/>
-			<Item Name="Run Block.lvclass" Type="LVClass" URL="../../../Run Utilities/Run Block/Run Block.lvclass"/>
-			<Item Name="Run Instance.lvclass" Type="LVClass" URL="../../../Run Utilities/Run Instance/Run Instance.lvclass"/>
-			<Item Name="Schedule Block.lvclass" Type="LVClass" URL="../../../Run Utilities/Schedule Block/Schedule Block.lvclass"/>
-			<Item Name="Schedule.lvclass" Type="LVClass" URL="../../../Run Utilities/Schedule/Schedule.lvclass"/>
 			<Item Name="SCT Default Types.ctl" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Default Types.ctl"/>
 			<Item Name="SCT Get LVRTPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get LVRTPath.vi"/>
 			<Item Name="SCT Get Types.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get Types.vi"/>
-			<Item Name="Sequence of SBlocks.lvclass" Type="LVClass" URL="../../../Run Utilities/Sequence of SBlocks/Sequence of SBlocks.lvclass"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
