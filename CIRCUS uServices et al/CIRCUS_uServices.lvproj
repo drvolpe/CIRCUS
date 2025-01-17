@@ -1080,9 +1080,6 @@
 			<Item Name="dscVISL.dll" Type="Document" URL="../../TALOS/dscVISL.dll"/>
 			<Item Name="dscVSLT.dll" Type="Document" URL="../../TALOS/dscVSLT.dll"/>
 			<Item Name="FPGA informative error on return.vi" Type="VI" URL="../FPGA informative error on return.vi"/>
-			<Item Name="Get Monkey Picture.vi" Type="VI" URL="../../../Support VIs/Get Monkey Picture.vi"/>
-			<Item Name="Get Tamer Logo.vi" Type="VI" URL="../../../Support VIs/Get Tamer Logo.vi"/>
-			<Item Name="Get Tamer Picture.vi" Type="VI" URL="../../../Support VIs/Get Tamer Picture.vi"/>
 			<Item Name="IOServer.mxx" Type="Document" URL="../../TALOS/IOServer.mxx"/>
 			<Item Name="Is status ongoing - string.vi" Type="VI" URL="../Tamer/Is status ongoing - string.vi"/>
 			<Item Name="JKI_dotNET_System_Exec_PPL.lvlibp" Type="LVLibp" URL="../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp">

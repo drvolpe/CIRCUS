@@ -7,9 +7,11 @@
 	<Item Name="Analysis Framework.lvclass" Type="LVClass" URL="../Analysis Framework/Analysis Framework.lvclass"/>
 	<Item Name="DAQ Manager.lvlib" Type="Library" URL="../DAQ Manager/DAQ Manager.lvlib"/>
 	<Item Name="DAQ Sender.lvlib" Type="Library" URL="../DAQ Sender/DAQ Sender.lvlib"/>
-	<Item Name="Holy Trinity.lvlib" Type="Library" URL="../Holy Trinity.lvlib"/>
 	<Item Name="Kasli Listener and Writer.lvlib" Type="Library" URL="../Kasli Listener and Writer.lvlib"/>
 	<Item Name="Kasli Server.lvlib" Type="Library" URL="../Kasli Server/Kasli Server.lvlib"/>
 	<Item Name="Kasli Wrapper 2.0.lvlib" Type="Library" URL="../Kasli Wrapper 2.0/Kasli Wrapper 2.0.lvlib"/>
+	<Item Name="Monkey.lvlib" Type="Library" URL="../Monkey/Monkey.lvlib"/>
 	<Item Name="Run Utilities.lvlib" Type="Library" URL="../Run Utilities/Run Utilities.lvlib"/>
+	<Item Name="Scheduler.lvlib" Type="Library" URL="../Scheduler/Scheduler.lvlib"/>
+	<Item Name="Tamer.lvlib" Type="Library" URL="../Tamer/Tamer.lvlib"/>
 </Library>
