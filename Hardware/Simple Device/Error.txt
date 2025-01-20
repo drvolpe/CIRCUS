@@ -1,7 +1,0 @@
-Error:
-99 - wrong command
-100 - init error
-101 - connection error
-102 - couldn't read error
-103 - couldn't write error
-104 - stop error

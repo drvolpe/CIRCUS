@@ -11,9 +11,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Hardware" Type="Folder"/>
+		<Item Name="Dummies" Type="Folder">
+			<Item Name="Dummy 1.lvlib" Type="Library" URL="../../Other uServices/Dummies/Dummy 1/Dummy 1.lvlib"/>
+			<Item Name="Dummy 2.lvlib" Type="Library" URL="../../Other uServices/Dummies/Dummy 2/Dummy 2.lvlib"/>
+			<Item Name="Dummy 3.lvlib" Type="Library" URL="../../Other uServices/Dummies/Dummy 3/Dummy 3.lvlib"/>
+			<Item Name="Dummy 4.lvlib" Type="Library" URL="../../Other uServices/Dummies/Dummy 4/Dummy 4.lvlib"/>
+			<Item Name="Dummy 5.lvlib" Type="Library" URL="../../Other uServices/Dummies/Dummy 5/Dummy 5.lvlib"/>
+			<Item Name="Dummy.lvlib" Type="Library" URL="../../Other uServices/Dummies/Dummy/Dummy.lvlib"/>
+		</Item>
 		<Item Name="New uService Template.lvlib" Type="Library" URL="../../Other uServices/New uService Template/New uService Template.lvlib"/>
 		<Item Name="Pizza Machine.lvlib" Type="Library" URL="../../Other uServices/Pizza Machine/Pizza Machine.lvlib"/>
+		<Item Name="Test_uService.lvlib" Type="Library" URL="../../Test/Test_uService Folder/Test_uService.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -29,9 +37,11 @@
 				<Item Name="ERR_ErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_ErrorClusterFromErrorCode.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
 				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="ni_logos_BuildURL.vi" Type="VI" URL="/&lt;vilib&gt;/variable/logos/dll/ni_logos_BuildURL.vi"/>
 				<Item Name="ni_logos_ValidatePSPItemName.vi" Type="VI" URL="/&lt;vilib&gt;/variable/logos/dll/ni_logos_ValidatePSPItemName.vi"/>
@@ -70,6 +80,8 @@
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/helpers/Sort 1D Array Core.vim"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Actor Framework.lvlibp" Type="LVLibp" URL="../../TALOS/Actor Framework.lvlibp">
 				<Item Name="Time-Delayed Send Message" Type="Folder">

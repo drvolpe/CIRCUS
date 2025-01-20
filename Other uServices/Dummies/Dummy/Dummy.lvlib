@@ -4,7 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
 	<Item Name="Shared Variables" Type="Folder"/>
 	<Item Name="Dummy.lvclass" Type="LVClass" URL="../Dummy/Dummy.lvclass"/>
 </Library>
