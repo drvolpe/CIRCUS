@@ -36,18 +36,5 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="AddRun" Type="Folder">
-		<Item Name="Add Run Sblock Creator.vi" Type="VI" URL="../Add Run Sblock Creator.vi"/>
-		<Item Name="Add RUN Window.vi" Type="VI" URL="../Add RUN Window.vi"/>
-		<Item Name="Change ComboBox Strings.vi" Type="VI" URL="../Change ComboBox Strings.vi"/>
-		<Item Name="Clean-up List of Observables.vi" Type="VI" URL="../Clean-up List of Observables.vi"/>
-		<Item Name="Init Add Run Window.vi" Type="VI" URL="../Init Add Run Window.vi"/>
-		<Item Name="Optimiser SBlock Creator.vi" Type="VI" URL="../Optimiser SBlock Creator.vi"/>
-		<Item Name="Parameters filler.vi" Type="VI" URL="../Parameters filler.vi"/>
-		<Item Name="Scan SBlock Creator.vi" Type="VI" URL="../Scan SBlock Creator.vi"/>
-		<Item Name="Set AddRun Controls Values.vi" Type="VI" URL="../Set AddRun Controls Values.vi"/>
-		<Item Name="Set SubPanel Controls Values.vi" Type="VI" URL="../Set SubPanel Controls Values.vi"/>
-		<Item Name="Update Add Run Parameters.vi" Type="VI" URL="../Update Add Run Parameters.vi"/>
-	</Item>
 	<Item Name="Scheduler.lvclass" Type="LVClass" URL="../Scheduler.lvclass"/>
 </Library>

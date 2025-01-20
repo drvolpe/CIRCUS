@@ -1068,7 +1068,6 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Config.lvclass" Type="LVClass" URL="../../../Classes/Config/Config.lvclass"/>
 			<Item Name="dscCit4M.dll" Type="Document" URL="../../TALOS/dscCit4M.dll"/>
 			<Item Name="dscCitSP.dll" Type="Document" URL="../../TALOS/dscCitSP.dll"/>
 			<Item Name="dscCommn.dll" Type="Document" URL="../../TALOS/dscCommn.dll"/>
@@ -1080,7 +1079,6 @@
 			<Item Name="dscVISL.dll" Type="Document" URL="../../TALOS/dscVISL.dll"/>
 			<Item Name="dscVSLT.dll" Type="Document" URL="../../TALOS/dscVSLT.dll"/>
 			<Item Name="IOServer.mxx" Type="Document" URL="../../TALOS/IOServer.mxx"/>
-			<Item Name="Is status ongoing - string.vi" Type="VI" URL="../Tamer/Is status ongoing - string.vi"/>
 			<Item Name="JKI_dotNET_System_Exec_PPL.lvlibp" Type="LVLibp" URL="../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp">
 				<Item Name="Clear Errors.vi" Type="VI" URL="../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="dotnet_system_exec.lvclass" Type="LVClass" URL="../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp/dotnet_system_exec.lvclass"/>
@@ -1092,7 +1090,6 @@
 			<Item Name="lksock.dll" Type="Document" URL="lksock.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Log.lvclass" Type="LVClass" URL="../../../Classes/Log/Log.lvclass"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
