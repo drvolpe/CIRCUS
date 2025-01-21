@@ -46,7 +46,7 @@
 					<Item Name="Extract List from both INI.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Extract List from both INI.vi"/>
 					<Item Name="Extract list from Project INI file entry.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Guardian/Guardian/Extract list from Project INI file entry.vi"/>
 					<Item Name="TALOS Config Param.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/TALOS Config Param.vi"/>
-					<Item Name="TALOS.ini" Type="Document" URL="../../../../../../../LabVIEW/builds/TALOS/TALOS.ini"/>
+					<Item Name="TALOS.ini" Type="Document" URL="../../../../../../LabVIEW/builds/TALOS/TALOS.ini"/>
 				</Item>
 				<Item Name="Error and System Log" Type="Folder">
 					<Item Name="Error Log internals.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Error Log internals.vi"/>
@@ -58,7 +58,7 @@
 					<Item Name="Error Memory.lvlib" Type="Library" URL="../../TALOS/TALOS_PPL.lvlibp/FGV/Error Memory/Error Memory.lvlib"/>
 					<Item Name="Custom General Error Handler.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Custom General Error Handler.vi"/>
 					<Item Name="Substitute Error.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Substitute Error.vi"/>
-					<Item Name="TALOS Errors.csv" Type="Document" URL="../../../../../../../LabVIEW/builds/TALOS/TALOS Errors.csv"/>
+					<Item Name="TALOS Errors.csv" Type="Document" URL="../../../../../../LabVIEW/builds/TALOS/TALOS Errors.csv"/>
 				</Item>
 				<Item Name="Misc" Type="Folder">
 					<Item Name="Indicator" Type="Folder">

@@ -1,8 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="varPersistentID:{24B2913C-B0EE-4FBF-AA70-B384DEC7552D}" Type="Ref">/My Computer/CIRCUS_uServices.lvlib/DAQ Manager.lvlib/Shared Variables/RUN Number</Property>
-	<Property Name="varPersistentID:{79487E8C-20C2-4480-88CC-0FB61C8BCE6A}" Type="Ref">/My Computer/CIRCUS_uServices.lvlib/DAQ Manager.lvlib/Shared Variables/DAQ Port Path</Property>
+	<Property Name="varPersistentID:{24B2913C-B0EE-4FBF-AA70-B384DEC7552D}" Type="Ref">/My Computer/DAQ Manager.lvlib/Shared Variables/RUN Number</Property>
+	<Property Name="varPersistentID:{79487E8C-20C2-4480-88CC-0FB61C8BCE6A}" Type="Ref">/My Computer/DAQ Manager.lvlib/Shared Variables/DAQ Port Path</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -13,7 +13,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="CIRCUS_uServices.lvlib" Type="Library" URL="../CIRCUS_uServices.lvlib"/>
+		<Item Name="Analysis Framework.lvclass" Type="LVClass" URL="../Analysis Framework/Analysis Framework.lvclass"/>
+		<Item Name="DAQ Manager.lvlib" Type="Library" URL="../DAQ Manager/DAQ Manager.lvlib"/>
+		<Item Name="DAQ Sender.lvlib" Type="Library" URL="../DAQ Sender/DAQ Sender.lvlib"/>
+		<Item Name="Kasli Listener and Writer.lvlib" Type="Library" URL="../Kasli Listener and Writer/Kasli Listener and Writer.lvlib"/>
+		<Item Name="Kasli Server.lvlib" Type="Library" URL="../Kasli Server/Kasli Server.lvlib"/>
+		<Item Name="Kasli Wrapper 2.0.lvlib" Type="Library" URL="../Kasli Wrapper 2.0/Kasli Wrapper 2.0.lvlib"/>
+		<Item Name="Monkey.lvlib" Type="Library" URL="../Monkey/Monkey.lvlib"/>
+		<Item Name="Run Utilities.lvlib" Type="Library" URL="../Run Utilities/Run Utilities.lvlib"/>
+		<Item Name="Scheduler.lvlib" Type="Library" URL="../Scheduler/Scheduler.lvlib"/>
 		<Item Name="TALOS_PPL.lvlibp" Type="LVLibp" URL="../../TALOS/TALOS_PPL.lvlibp">
 			<Item Name="Internal uServices" Type="Folder">
 				<Item Name="System uServices" Type="Folder">
@@ -39,7 +47,7 @@
 					<Item Name="Extract List from both INI.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Extract List from both INI.vi"/>
 					<Item Name="Extract list from Project INI file entry.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Guardian/Guardian/Extract list from Project INI file entry.vi"/>
 					<Item Name="TALOS Config Param.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/TALOS Config Param.vi"/>
-					<Item Name="TALOS.ini" Type="Document" URL="../../../../../../../LabVIEW/builds/TALOS/TALOS.ini"/>
+					<Item Name="TALOS.ini" Type="Document" URL="../../../../../../LabVIEW/builds/TALOS/TALOS.ini"/>
 				</Item>
 				<Item Name="Error and System Log" Type="Folder">
 					<Item Name="Error Log internals.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Error Log internals.vi"/>
@@ -51,7 +59,7 @@
 					<Item Name="Error Memory.lvlib" Type="Library" URL="../../TALOS/TALOS_PPL.lvlibp/FGV/Error Memory/Error Memory.lvlib"/>
 					<Item Name="Custom General Error Handler.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Custom General Error Handler.vi"/>
 					<Item Name="Substitute Error.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Substitute Error.vi"/>
-					<Item Name="TALOS Errors.csv" Type="Document" URL="../../../../../../../LabVIEW/builds/TALOS/TALOS Errors.csv"/>
+					<Item Name="TALOS Errors.csv" Type="Document" URL="../../../../../../LabVIEW/builds/TALOS/TALOS Errors.csv"/>
 				</Item>
 				<Item Name="Misc" Type="Folder">
 					<Item Name="Indicator" Type="Folder">
@@ -942,6 +950,7 @@
 			<Item Name="Check Whether Timeouted.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/lvdsc/tagapi/internal/Check Whether Timeouted.vi"/>
 			<Item Name="PSP Enumerate Network Items.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/lvdsc/tagapi/internal/PSP Enumerate Network Items.vi"/>
 		</Item>
+		<Item Name="Tamer.lvlib" Type="Library" URL="../Tamer/Tamer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -974,7 +983,6 @@
 				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="LVComboBoxStrsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVComboBoxStrsAndValuesArrayTypeDef.ctl"/>
 				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="ni_logos_BuildURL.vi" Type="VI" URL="/&lt;vilib&gt;/variable/logos/dll/ni_logos_BuildURL.vi"/>
@@ -1001,10 +1009,6 @@
 				<Item Name="PRC_IOServersToLib.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_IOServersToLib.vi"/>
 				<Item Name="PRC_OpenOrCreateLib.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_OpenOrCreateLib.vi"/>
 				<Item Name="PRC_ParseLogosURL.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_ParseLogosURL.vi"/>
-				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
-				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
-				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
-				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
 				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
 				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
@@ -1025,13 +1029,11 @@
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Union.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Union.vim"/>
-				<Item Name="Shuffle 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Shuffle 1D Array.vim"/>
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
-				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -1152,7 +1154,7 @@
 				<Property Name="Source[0].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CIRCUS_uServices.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
