@@ -1,35 +1,39 @@
 {
     "creators": [
         {
-            "orcid": "0000-0002-1825-0097",
-            "affiliation": "Feline reasearch institute",
-            "name": "Field, Gar"
+            "orcid": "0000-0002-5048-8708",
+            "affiliation": "Physics Department, CERN",
+            "name": "Volponi, Marco"
         },
         {
-            "orcid": "0000-0002-1825-0097",
-            "affiliation": "Feline reasearch institute",
-            "name": "Cat, Felix"
+            "orcid": "0000-0003-2729-5737",
+            "affiliation": "Faculty of Physics, Warsaw University of Technology",
+            "name": "Zielinski, Jakub"
+        },
+        {
+            "affiliation":"CERN",
+            "name":"AEgIS Collaboration"
         }
     ],
 
-    "license": "Example-2.0",
+    "license": "LGPL-3.0-or-later",
 
-    "title": "Red-Dot: ML-powered laser vector detection",
+    "title": "CIRCUS: an autonomous control system for antimatter, atomic and quantum physics experiments",
 
     "related_identifiers": [
         {
             "scheme": "doi",
-            "identifier": "10.1234/software.paper.5678",
+            "identifier": "10.1140/epjqt/s40507-024-00220-6",
             "relation": "isDocumentedBy",
             "resource_type": "publication-article"
         }
     ],
 
-    "keywords": ["Cats", "Laser", "Behavior"],
+    "keywords": ["Control System", "Unsupervised", "Autonomous","LabVIEW"],
 
     "communities": [
-        {"identifier": "software-cats"}
+        {"identifier": "cern"}
     ],
 
-    "grants": [{"id":"777541"}]
+    "grants": []
 }
