@@ -138,8 +138,8 @@
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Get LV Class Name.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
 			<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
-			<Item Name="Clear Errors.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AdvancedString/Delimited String to 1D String Array.vi"/>
+			<Item Name="Clear Errors.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Space Constant.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			<Item Name="Create Directory Recursive.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 			<Item Name="Write Spreadsheet String.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Spreadsheet String.vi"/>
