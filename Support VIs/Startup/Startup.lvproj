@@ -2,8 +2,6 @@
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{075A6652-CE66-4728-B534-50A9EF9ED91E}" Type="Ref">/My Computer/Dependencies/TALOS_PPL.lvlibp/Internal uServices/DAQ Manager.lvlib/Shared Variables/DAQ Port Path</Property>
-	<Property Name="varPersistentID:{60009621-DD7E-4030-9A00-68533FDAD53F}" Type="Ref">/My Computer/Dependencies/TALOS_PPL.lvlibp/Internal uServices/DAQ Manager.lvlib/Shared Variables/RUN Number</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -72,7 +70,6 @@
 				<Item Name="NI_Variable.lvlib" Type="Library" URL="/&lt;vilib&gt;/variable/NI_Variable.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
-				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="PRC_CachedLibVariables.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_CachedLibVariables.vi"/>
 				<Item Name="PRC_ConvertDBAttr.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_ConvertDBAttr.vi"/>
 				<Item Name="PRC_CreateFolders.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_CreateFolders.vi"/>
@@ -154,11 +151,6 @@
 			<Item Name="dscVISL.dll" Type="Document" URL="../../../TALOS/dscVISL.dll"/>
 			<Item Name="dscVSLT.dll" Type="Document" URL="../../../TALOS/dscVSLT.dll"/>
 			<Item Name="IOServer.mxx" Type="Document" URL="../../../TALOS/IOServer.mxx"/>
-			<Item Name="JKI_dotNET_System_Exec_PPL.lvlibp" Type="LVLibp" URL="../../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp">
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="dotnet_system_exec.lvclass" Type="LVClass" URL="../../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp/dotnet_system_exec.lvclass"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../TALOS/JKI_dotNET_System_Exec_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -170,8 +162,8 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="mxLvProvider.mxx" Type="Document" URL="../../../TALOS/mxLvProvider.mxx"/>
 			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
+			<Item Name="mxLvProvider.mxx" Type="Document" URL="../../../TALOS/mxLvProvider.mxx"/>
 			<Item Name="ni_citadel_lv.dll" Type="Document" URL="../../../TALOS/ni_citadel_lv.dll"/>
 			<Item Name="ni_monads_opcClient_gui.dll" Type="Document" URL="../../../TALOS/ni_monads_opcClient_gui.dll"/>
 			<Item Name="ni_security_salapi.dll" Type="Document" URL="../../../TALOS/ni_security_salapi.dll"/>
@@ -197,23 +189,15 @@
 			<Item Name="TALOS_PPL.lvlibp" Type="LVLibp" URL="../../../TALOS/TALOS_PPL.lvlibp">
 				<Item Name="Internal uServices" Type="Folder">
 					<Item Name="System uServices" Type="Folder">
-						<Item Name="Kasli Wrapper 2.0.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/Kasli Wrapper 2.0/Kasli Wrapper 2.0.lvlib"/>
-						<Item Name="Monkey.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/Monkey/Monkey.lvlib"/>
-						<Item Name="Scheduler.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/Scheduler/Scheduler.lvlib"/>
-						<Item Name="Tamer.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/Tamer/Tamer.lvlib"/>
+						<Item Name="Common GUI v3.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/Common GUI v3/Common GUI v3.lvlib"/>
+						<Item Name="Detector Manager.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/Detector Manager/Detector Manager.lvlib"/>
+						<Item Name="Error Manager.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/Error Manager/Error Manager.lvlib"/>
+						<Item Name="Guardian Subpanel.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/Guardian Subpanel/Guardian Subpanel.lvlib"/>
+						<Item Name="TCP Listener.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/TCP Listener/TCP Listener.lvlib"/>
+						<Item Name="TCP Server.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/TCP Server/TCP Server.lvlib"/>
+						<Item Name="TCP Writer.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/TCP Writer/TCP Writer.lvlib"/>
 					</Item>
-					<Item Name="Common GUI v3.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Common GUI v3/Common GUI v3.lvlib"/>
-					<Item Name="DAQ Manager.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/DAQ Manager/DAQ Manager.lvlib"/>
-					<Item Name="DAQ Sender.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/DAQ Sender/DAQ Sender.lvlib"/>
-					<Item Name="Detector Manager.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/Detector Manager/Detector Manager.lvlib"/>
-					<Item Name="Error Manager.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/Error Manager/Error Manager.lvlib"/>
-					<Item Name="Guardian Subpanel.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/Guardian Subpanel/Guardian Subpanel.lvlib"/>
-					<Item Name="Kasli Listener and Writer.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/TCP uServices/Kasli Listener and Writer.lvlib"/>
-					<Item Name="Kasli Server.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/TCP uServices/Kasli Server/Kasli Server.lvlib"/>
-					<Item Name="TCP Listener.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/TCP uServices/TCP Listener/TCP Listener.lvlib"/>
-					<Item Name="TCP Server.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/TCP uServices/TCP Server/TCP Server.lvlib"/>
-					<Item Name="TCP Writer.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/TCP uServices/TCP Writer/TCP Writer.lvlib"/>
-					<Item Name="Template Internal uService.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Template Internal uService/Template Internal uService.lvlib"/>
+					<Item Name="Template Internal uService.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/Template Internal uService/Template Internal uService.lvlib"/>
 				</Item>
 				<Item Name="Support VI" Type="Folder">
 					<Item Name="ABORT Utilities" Type="Folder">
@@ -222,12 +206,12 @@
 						<Item Name="Raise ABORT.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Raise ABORT.vi"/>
 					</Item>
 					<Item Name="Config Params" Type="Folder">
-						<Item Name="CIrcus Config Param - Core.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/CIrcus Config Param - Core.vi"/>
+						<Item Name="Circus Config Param - Core.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Circus Config Param - Core.vi"/>
 						<Item Name="Circus Config Param.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Circus Config Param.vi"/>
 						<Item Name="Extract List from both INI.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Extract List from both INI.vi"/>
 						<Item Name="Extract list from Project INI file entry.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Guardian/Guardian/Extract list from Project INI file entry.vi"/>
 						<Item Name="TALOS Config Param.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/TALOS Config Param.vi"/>
-						<Item Name="TALOS.ini" Type="Document" URL="../../../../builds/TALOS for Debug/TALOS.ini"/>
+						<Item Name="TALOS.ini" Type="Document" URL="../../../../../../../LabVIEW/builds/TALOS/TALOS.ini"/>
 					</Item>
 					<Item Name="Error and System Log" Type="Folder">
 						<Item Name="Error Log internals.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Error Log internals.vi"/>
@@ -239,7 +223,7 @@
 						<Item Name="Error Memory.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/FGV/Error Memory/Error Memory.lvlib"/>
 						<Item Name="Custom General Error Handler.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Custom General Error Handler.vi"/>
 						<Item Name="Substitute Error.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Substitute Error.vi"/>
-						<Item Name="TALOS Errors.csv" Type="Document" URL="../../../../builds/TALOS for Debug/TALOS Errors.csv"/>
+						<Item Name="TALOS Errors.csv" Type="Document" URL="../../../../../../../LabVIEW/builds/TALOS/TALOS Errors.csv"/>
 					</Item>
 					<Item Name="Misc" Type="Folder">
 						<Item Name="Indicator" Type="Folder">
@@ -252,7 +236,6 @@
 						<Item Name="Circus PCs List.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Circus PCs List.vi"/>
 						<Item Name="Cirucs PCs IPs.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Cirucs PCs IPs.vi"/>
 						<Item Name="Date n Time.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Date n Time.vi"/>
-						<Item Name="FPGA informative error on return.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/FPGA informative error on return.vi"/>
 						<Item Name="Get Class Name.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Get Class Name.vi"/>
 						<Item Name="Get PC name.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Get PC name.vi"/>
 						<Item Name="Get Run Number.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Get Run Number.vi"/>
@@ -271,11 +254,9 @@
 						<Item Name="SV Refnum to Control.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/SV Refnum to Control.vi"/>
 						<Item Name="Temporised Pop-up Window - Core.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Temporised Pop-up Window - Core.vi"/>
 						<Item Name="Temporised Pop-up Window.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Temporised Pop-up Window.vi"/>
-						<Item Name="updateGIT.bat" Type="Document" URL="../../../../builds/TALOS for Debug/updateGIT.bat"/>
 					</Item>
 					<Item Name="Paths" Type="Folder">
 						<Item Name="Circus Root Path.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/Circus Root Path.vi"/>
-						<Item Name="DAQ DLL Path.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/DAQ DLL Path.vi"/>
 						<Item Name="TALOS Root path.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/TALOS Root path.vi"/>
 						<Item Name="TALOS SVs path.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Support VIs/TALOS SVs path.vi"/>
 					</Item>
@@ -289,11 +270,10 @@
 				</Item>
 				<Item Name="Ancestor.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Ancestor/Ancestor.lvlib"/>
 				<Item Name="Classes.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Classes/Classes.lvlib"/>
-				<Item Name="Father Of All Detectors.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Classes/Father of all Detectors/Father Of All Detectors.lvlib"/>
 				<Item Name="Father of all uServices.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Father of all uServices/Father of all uServices.lvlib"/>
+				<Item Name="Father Of All Detectors.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Classes/Father of all Detectors/Father Of All Detectors.lvlib"/>
 				<Item Name="Guardian.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Guardian/Guardian.lvlib"/>
 				<Item Name="Interfaces.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Interfaces/Interfaces.lvlib"/>
-				<Item Name="Run Utilities.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/Run Utilities/Run Utilities.lvlib"/>
 				<Item Name="Launcher.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Launcher.vi"/>
 				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
 				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
@@ -301,12 +281,10 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="Less Functor.lvclass" Type="LVClass" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Comparison/Less/Less Functor/Less Functor.lvclass"/>
-				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
+				<Item Name="Multi Error Cluster.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/MultiError/TokenizeJSON/Multi Error Cluster.lvlib"/>
 				<Item Name="openg_variant.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
 				<Item Name="openg_error.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/user.lib/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="Multi Error Cluster.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/MultiError/TokenizeJSON/Multi Error Cluster.lvlib"/>
 				<Item Name="NI_DSC.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/lvdsc/NI_DSC.lvlib"/>
 				<Item Name="NI_Variable.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/variable/NI_Variable.lvlib"/>
 				<Item Name="NI_XSFPSupport.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/XSFPSupport/NI_XSFPSupport.lvlib"/>
@@ -314,6 +292,8 @@
 				<Item Name="NI_XNodeSupport.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/XNodeSupport/NI_XNodeSupport.lvlib"/>
 				<Item Name="NI_3dgraph.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Platform/NI_3dgraph.lvlib"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
+				<Item Name="Less Functor.lvclass" Type="LVClass" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Comparison/Less/Less Functor/Less Functor.lvclass"/>
+				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
 				<Item Name="openg_string.lvlib" Type="Library" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/user.lib/_OpenG.lib/string/string.llb/openg_string.lvlib"/>
 				<Item Name="config.mnu" Type="Document" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/menus/Categories/Programming/_File IO/config.mnu"/>
 				<Item Name="NI_XNodeSupport.mnu" Type="Document" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/XNodeSupport/NI_XNodeSupport.mnu"/>
@@ -323,9 +303,10 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
-				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
@@ -333,37 +314,14 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="Create NI GUID.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
-				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AdvancedString/1D String Array to Delimited String.vi"/>
-				<Item Name="LVComboBoxStrsAndValuesArrayTypeDef.ctl" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVComboBoxStrsAndValuesArrayTypeDef.ctl"/>
-				<Item Name="Shuffle 1D Array.vim" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Array/Shuffle 1D Array.vim"/>
-				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/numeric/Random Number (Range) DBL.vi"/>
-				<Item Name="sub_Random U32.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/numeric/sub_Random U32.vi"/>
-				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/numeric/Random Number (Range) I64.vi"/>
-				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/numeric/Random Number (Range) U64.vi"/>
-				<Item Name="Random Number (Range).vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/numeric/Random Number (Range).vi"/>
-				<Item Name="Less.vim" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Comparison/Less.vim"/>
-				<Item Name="Is status ongoing - string.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/Internal uServices/System uServices/Tamer/Is status ongoing - string.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Insert Into Sorted Array.vim" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Array/Insert Into Sorted Array.vim"/>
-				<Item Name="Set Union.vim" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/set operations/Set Union.vim"/>
-				<Item Name="Create Directory Recursive.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Create Directory Recursive.vi"/>
-				<Item Name="Path To Command Line String.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AdvancedString/Path To Command Line String.vi"/>
-				<Item Name="Get LV Class Path.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Path.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="New Zip File.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/zip/New Zip File.vi"/>
-				<Item Name="Compare Two Paths.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Compare Two Paths.vi"/>
-				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AdvancedString/Relative Path To Platform Independent String.vi"/>
-				<Item Name="Add File to Zip.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/zip/Add File to Zip.vi"/>
-				<Item Name="Close Zip File.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/zip/Close Zip File.vi"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/Stall Data Flow.vim"/>
-				<Item Name="System Exec.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Platform/system.llb/System Exec.vi"/>
-				<Item Name="usereventprio.ctl" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="TRef Get All FP References.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/traverseref.llb/TRef Get All FP References.vi"/>
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AdvancedString/1D String Array to Delimited String.vi"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/Stall Data Flow.vim"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="usereventprio.ctl" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="System Exec.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
@@ -380,14 +338,14 @@
 				<Item Name="ERR_ErrorClusterFromErrorCode.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/lvdsc/common/error/ERR_ErrorClusterFromErrorCode.vi"/>
 				<Item Name="PRC_GetProcList.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/lvdsc/process/internal/PRC_GetProcList.vi"/>
 				<Item Name="PRC_DeleteProc.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/lvdsc/process/internal/PRC_DeleteProc.vi"/>
-				<Item Name="Two-Way Comparison Versus Array Element.vim" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Array/Helpers/Two-Way Comparison Versus Array Element.vim"/>
-				<Item Name="Search Sorted 1D Array.vim" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Array/Search Sorted 1D Array.vim"/>
 				<Item Name="Match Regular Expression_ExecuteOffsets.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/regexp/Match Regular Expression_ExecuteOffsets.vi"/>
 				<Item Name="Match Regular Expression_Execute.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/regexp/Match Regular Expression_Execute.vi"/>
 				<Item Name="Match 1D String Array.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AdvancedString/Match 1D String Array.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
+				<Item Name="Create NI GUID.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="Open File+.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Open File+.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/_oldvers/_oldvers.llb/compatReadText.vi"/>
@@ -413,6 +371,7 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -431,9 +390,6 @@
 				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Array/Sort 1D Array.vim"/>
-				<Item Name="Empty Picture" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Empty Picture"/>
-				<Item Name="Draw Line.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Draw Line.vi"/>
-				<Item Name="Move Pen.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Move Pen.vi"/>
 				<Item Name="Draw Rect.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Draw Rect.vi"/>
 				<Item Name="Draw Text in Rect.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Draw Text in Rect.vi"/>
 				<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
@@ -653,6 +609,7 @@
 				<Item Name="varXNode_DrawnName.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/variable/varXNode.llb/varXNode_DrawnName.vi"/>
 				<Item Name="_LaunchHelp.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/help/_LaunchHelp.vi"/>
 				<Item Name="Error to Warning.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error to Warning.vi"/>
+				<Item Name="Empty Picture" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Empty Picture"/>
 				<Item Name="Flatten Pixmap.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/pixmap.llb/Flatten Pixmap.vi"/>
 				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Draw True-Color Pixmap.vi"/>
 				<Item Name="Draw 1-Bit Pixmap.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Draw 1-Bit Pixmap.vi"/>
@@ -663,6 +620,8 @@
 				<Item Name="SCT Is Variant NULL.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/resource/dialog/variable/SCT Is Variant NULL.vi"/>
 				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Draw Multiple Lines.vi"/>
 				<Item Name="Draw Point.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Draw Point.vi"/>
+				<Item Name="Draw Line.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Draw Line.vi"/>
+				<Item Name="Move Pen.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Move Pen.vi"/>
 				<Item Name="OffsetRect.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/PictureSupport.llb/OffsetRect.vi"/>
 				<Item Name="InsetRect.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/PictureSupport.llb/InsetRect.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
@@ -1079,6 +1038,7 @@
 				<Item Name="AB_RW_Project_PropBag_Action.ctl" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AppBuilder/RW_Project/AB_RW_Project_PropBag_Action.ctl"/>
 				<Item Name="AB_RW_Convert_Path_Tags.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AppBuilder/RW_Project/AB_RW_Convert_Path_Tags.vi"/>
 				<Item Name="mxLvSetStringProperty.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/resource/Framework/Providers/API/mxLvSetStringProperty.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="AB_Relative_Path_Type.ctl" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AppBuilder/AB_Relative_Path_Type.ctl"/>
 				<Item Name="AB_RW_Convert_Path_to_Relative.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AppBuilder/RW_Project/AB_RW_Convert_Path_to_Relative.vi"/>
 				<Item Name="mxLvGetRefProperty.vi" Type="VI" URL="../../../TALOS/TALOS_PPL.lvlibp/1abvi3w/resource/Framework/Providers/API/mxLvGetRefProperty.vi"/>
