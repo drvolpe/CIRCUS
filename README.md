@@ -21,6 +21,11 @@ Before being able to use the CIRCUS, TALOS, the underlying framework, needs to b
 > [!IMPORTANT]
 > Every time you switch between TALOS and CIRCUS, it is better to fully close and re-open LabVIEW, and clear the cache (by selecting `Tools > Advanced > Clear Compiled Object Cache`).
 
+### Other compilations
+
+Similarly to TALOS compilation, another PPL needs to be produced, but the procedure is easier.
+To build the _JKI dotNET System Exec_, open the relative project in the `Libraries` folder, check in `Build > Properties` that the path points to _..\TALOS\builds\JKI dotNET System Exec_, and press `Build`.
+
 ### Create your own repository to store your version of the CIRCUS
 
 To use the CIRCUS in a your experiment, necessarily a lot of MicroServices (or &mu;Services) will need to be created. Often they store sensitive information (e.g. IP addresses, ports, even devices' passwords), which **should not** be publicly available online.
@@ -95,6 +100,9 @@ Copyright (C) 2024
 
     You should have received a copy of the GNU Lesser General Public License
     along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+The _JKI dotNET System Exec_ is created by JKI and licenced under the Berkeley Software Distribution License (BSD) (see [here](https://www.vipm.io/package/jki_lib_dotnet_system_exec/) and [here](https://github.com/jvr-ruiz/JKI-.NET-System-Exec)).
 
 
 
