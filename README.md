@@ -1,6 +1,6 @@
 # CIRCUS: an autonomous control system for antimatter, atomic and quantum physics experiments
 
-The CIRCUS (_Computer Interface for Reliably Controlling, in an Unsupervised manner, Scientific experiments_) is a autonomous control system, optimised for the use in complex, time-critical experiments such as atomic, nuclear and quantum physics. It leverages the power of TALOS (_Total Automation of LabVIEW Operations for Science_) to guarantee stability, reliability and repeatability thanks to its distributed architecture and a three-layers watchdog. It is completely experiment-agnostic, and it is released open-source so that experiments can freely use it to control their experimental apparatuses.
+The CIRCUS (_Computer Interface for Reliably Controlling, in an Unsupervised manner, Scientific experiments_) is an autonomous control system, optimised for use in complex, time-critical experiments such as atomic, nuclear and quantum physics. It leverages the power of TALOS (_Total Automation of LabVIEW Operations for Science_) to guarantee stability, reliability and repeatability thanks to its distributed architecture and a three-layer watchdog. It is completely experiment-agnostic, and it is released open-source so that experiments can freely use it to control their experimental apparatuses.
 
 For more information about TALOS, see its [GitHub page](https://github.com/drvolpe/TALOS) and its article[^1].
 
@@ -8,8 +8,11 @@ For more information about the CIRCUS, see this article[^2].
 
 TALOS and the CIRCUS have been selected as a NI Case Study for Academic & Research: see [NI LabVIEW Empowers Scientific Research at CERN's Antimatter Lab](https://www.ni.com/en/solutions/academic-research/case-studies/labview-automation-empowers-cerns-antimatter-research.html).
 
-CIRCUS only supports Windows system (tested on Windows 10 and 11), and LabVIEW 2020 sp1 32 bits and newer[^3].
-The support of LabVIEW 64bit necessitates a major TALOS update, and it is foreseen to be implemented in the near future.
+CIRCUS only supports Windows systems (tested on Windows 10 and 11), and it is tested with LabVIEW 2020 sp1 32bit.
+
+Newer versions of LabVIEW should also be able to run the program without problems. Older versions are not guaranteed to execute it.
+
+The support of LabVIEW 64bit is now available, and it has been tested with LabVIEW 2024 Q3 64bit
 
 
 ## How to use it
@@ -28,7 +31,7 @@ To build the _JKI dotNET System Exec_, open the relative project in the `Librari
 
 ### Create your own repository to store your version of the CIRCUS
 
-To use the CIRCUS in a your experiment, necessarily a lot of MicroServices (or &mu;Services) will need to be created. Often they store sensitive information (e.g. IP addresses, ports, even devices' passwords), which **should not** be publicly available online.
+To use the CIRCUS in your experiment, necessarily a lot of MicroServices (or &mu;Services) will need to be created. Often they store sensitive information (e.g. IP addresses, ports, even devices' passwords), which **should not** be publicly available online.
 
 Therefore it's best if a new, dedicated repository is created to store your experiment's CIRCUS; it should have private restricted access only to the members of the experiment collaboration. If you don't know how to do it, follow for example [these instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository).
 
@@ -39,7 +42,7 @@ git lfs install
 To initialise the repository, download the code present in this repository as a _zip_ file and extract its content to the root folder of the dedicated repository. Then, copy the result of the TALOS compilation into _..\CIRCUS\TALOS_
 
 > [!NOTE]
-> To avoid uploading the compiled part of the VIs in the repository, it is advised to open LabVIEW and go in `Options > Environment` and check `Separate compiled code from new files`.
+> To avoid uploading the compiled part of the VIs in the repository, it is advised to open LabVIEW and go into `Options > Environment` and check `Separate compiled code from new files`.
 
 
 
@@ -51,13 +54,13 @@ To launch it immediately, and for test purposes, the _local mode_ can be employe
 
 #### Real-life scenario
 
-To use it in a real-life scenario, the _Circus.ini_ file has to be configured so to have the full list of PCs with their IPs (can also be only one). To do so, follow these steps:
+To use it in a real-life scenario, the _Circus.ini_ file has to be configured so as to have the full list of PCs with their IPs (there can also be only one). To do so, follow these steps:
 
 1.	Add your computer name under the *PC_List* parameter
 2.	Add to IPs its name followed by a comma and the IP of the machine in dot notation (e.g. 127.0.0.1)
 3.	Create a new line, starting with the name of your computer, then the symbol ''='' followed by the list of the &mu;Services that should start at start-up (you can leave it blank at the beginning).
 
-Then, a new LabVIEW project has to be created per each computer running CIRCUS, named **exactly** as the computer name: the best way to do it is to copy the _Circus-Example-Project.lvproj_ renaming it with the PC name. Once these operations are done, the CIRCUS can be simply started double-clicking `Startup.bat` present in the CIRCUS root folder. 
+Then, a new LabVIEW project has to be created per each computer running CIRCUS, named **exactly** as the computer name: the best way to do it is to copy the _Circus-Example-Project.lvproj_ renaming it with the PC name. Once these operations are done, the CIRCUS can be simply started by double-clicking `Startup.bat` present in the CIRCUS root folder. 
 
 > [!TIP]
 > The computer can also be configured to auto-start the CIRCUS at boot by adding `Startup.bat` to the Windows start-up applications.
@@ -74,12 +77,12 @@ TALOS comes with a palette set to ease the coding of &mu;Services. To install it
 
 To create a new &mu;Service, the best way is to start from a copy of _New uService Template_. Do the following:
 
-1.	Open the project, right click on _New uService Template.lvlib_ and select `Save > Save as...`, give it its new name and leave the flag `Add copy to [...].lvproj` ticked. Save it in a folder, named as the µService, somewhere inside the main CIRCUS folder and press `OK`.
-2. The new µService, with all the basic structure, will appear into the project tree! Press `Save all`.
-3. Open the library just created, right click on _New uService Template.lvclass_ and rename it with the same name you choose for the library (which will be the name of the µService).
-4.	Also rename the _Consumer Case Selector.ctl_ appending at the beginning the name of the µService (like *My_uService Consumer Case Selector.ctl*).	
-5.	If an error like ``Impossible to create actor: the library of origin is locked'' is given, it means that the template was opened and remained in memory. To fix it, close LabVIEW completely, remove the folder named as the µService you were trying to create from the project folder (it get created, no matter what, and will impede the recreation of the µService with the same name), and try again. Then it should work.
-6.	If you still haven't done, close and reopen the project, so to avoid error after renaming the class.
+1.	Open the project, right-click on _New uService Template.lvlib_ and select `Save > Save as...`, give it its new name and leave the flag `Add copy to [...].lvproj` ticked. Save it in a folder, named as the µService, somewhere inside the main CIRCUS folder and press `OK`.
+2. The new µService, with all the basic structure, will appear in the project tree! Press `Save all`.
+3. Open the library just created, right-click on _New uService Template.lvclass_ and rename it with the same name you choose for the library (which will be the name of the µService).
+4.	Also rename the _Consumer Case Selector.ctl_ appending at the beginning of the name of the µService (like *My_uService Consumer Case Selector.ctl*).	
+5.	If an error like ``Impossible to create actor: the library of origin is locked'' is given, it means that the template was opened and remained in memory. To fix it, close LabVIEW completely, remove the folder named as the µService you were trying to create from the project folder (it gets created, no matter what, and will impede the recreation of the µService with the same name), and try again. Then it should work.
+6.	If you still haven't done so, close and reopen the project, so to avoid errors after renaming the class.
 7.	If you want to personalise all the icons' header of the newly created µService, right-click on the _New µService Name.lvclass_ and select `Properties > General Settings > Edit Icon...`. Please stay inside the default rectangle. At the prompt of updating all the VIs already present in the project, select Yes.
 
 
