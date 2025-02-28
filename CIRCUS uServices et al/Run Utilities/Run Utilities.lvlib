@@ -35,11 +35,11 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Messages" Type="Folder">
+			<Item Name="Append Schedule Message.ctl" Type="VI" URL="../TypeDefs/Messages/Append Schedule Message.ctl"/>
 			<Item Name="Banana Message.ctl" Type="VI" URL="../TypeDefs/Messages/Banana Message.ctl"/>
 			<Item Name="Monkey Status Message.ctl" Type="VI" URL="../TypeDefs/Messages/Monkey Status Message.ctl"/>
-			<Item Name="Schedule Message - Parallel.ctl" Type="VI" URL="../TypeDefs/Messages/Schedule Message - Parallel.ctl"/>
-			<Item Name="Schedule Message - Standard.ctl" Type="VI" URL="../TypeDefs/Messages/Schedule Message - Standard.ctl"/>
 			<Item Name="Schedule Message.ctl" Type="VI" URL="../TypeDefs/Messages/Schedule Message.ctl"/>
+			<Item Name="Schedules With Sync Mask Message.ctl" Type="VI" URL="../TypeDefs/Messages/Schedules With Sync Mask Message.ctl"/>
 			<Item Name="Script Checker Message.ctl" Type="VI" URL="../TypeDefs/Messages/Script Checker Message.ctl"/>
 			<Item Name="Submit Message.ctl" Type="VI" URL="../TypeDefs/Messages/Submit Message.ctl"/>
 		</Item>
