@@ -118,14 +118,14 @@
 5775,Tamer: error while trying to reschedule skipped scripts,0
 5776,,0
 5777,Tamer: Error writing action history log,0
-5778,Init RUN aborted because timeout,1
+5778,Init RUN aborted because timeout,0
 5779,Init RUN aborted because ABORT was True,3
-5780,Init RUN aborted because lists didn't match,1
-5781,Init RUN aborted because uService replied No Go,1
-5782,Init RUN aborted because Guardian replied No Go,1
-5783,Init RUN aborted because uService reply was not readable,1
-5784,Init RUN aborted because Guardian reply was not readable,1
-5785,Error while stopping the Ready to Launch procedure,1
+5780,Init RUN aborted because lists didn't match,0
+5781,Init RUN aborted because uService replied No Go,0
+5782,Init RUN aborted because Guardian replied No Go,0
+5783,Init RUN aborted because uService reply was not readable,0
+5784,Init RUN aborted because Guardian reply was not readable,0
+5785,Error while stopping the Ready to Launch procedure,3
 5786,Tamer: too many RtL tried! Stopping.,0
 5787,Script built for a different FPGA than scheduled,0
 5788,Criticality Level outside working range,0
