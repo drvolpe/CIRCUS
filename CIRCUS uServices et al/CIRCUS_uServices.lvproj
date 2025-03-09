@@ -246,6 +246,7 @@
 				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="LVComboBoxStrsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVComboBoxStrsAndValuesArrayTypeDef.ctl"/>
 				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -253,6 +254,10 @@
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -260,10 +265,12 @@
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Union.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Union.vim"/>
+				<Item Name="Shuffle 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Shuffle 1D Array.vim"/>
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -297,10 +304,10 @@
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
-			<Item Name="JKI_dotNET_System_Exec_PPL.lvlibp" Type="LVLibp" URL="../../TALOS/builds/JKI dotNET System Exec/JKI_dotNET_System_Exec_PPL.lvlibp">
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../TALOS/builds/JKI dotNET System Exec/JKI_dotNET_System_Exec_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="dotnet_system_exec.lvclass" Type="LVClass" URL="../../TALOS/builds/JKI dotNET System Exec/JKI_dotNET_System_Exec_PPL.lvlibp/dotnet_system_exec.lvclass"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../TALOS/builds/JKI dotNET System Exec/JKI_dotNET_System_Exec_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="JKI_dotNET_System_Exec_PPL.lvlibp" Type="LVLibp" URL="../../Libraries/JKI_dotNET_System_Exec_PPL.lvlibp">
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../Libraries/JKI_dotNET_System_Exec_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="dotnet_system_exec.lvclass" Type="LVClass" URL="../../Libraries/JKI_dotNET_System_Exec_PPL.lvlibp/dotnet_system_exec.lvclass"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Libraries/JKI_dotNET_System_Exec_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
 			<Item Name="KERNEL32.DLL" Type="Document" URL="KERNEL32.DLL">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

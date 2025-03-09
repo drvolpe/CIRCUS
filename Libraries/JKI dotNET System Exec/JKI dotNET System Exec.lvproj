@@ -37,22 +37,21 @@
 				<Property Name="Bld_buildSpecName" Type="Str">JKI dotNET System Exec PPL</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Code/CIRCUS/TALOS/builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">..</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7218A58C-67D5-4D93-86A5-08DCD8BF7B05}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">JKI_dotNET_System_Exec_PPL.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Code/CIRCUS/TALOS/builds/NI_AB_PROJECTNAME/JKI_dotNET_System_Exec_PPL.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../JKI_dotNET_System_Exec_PPL.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Code/CIRCUS/TALOS/builds/NI_AB_PROJECTNAME</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">..</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EB83C833-57B7-4F0F-95D6-F8FFC3674040}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DBFFFD9C-5C8B-403C-897C-877A80889698}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
